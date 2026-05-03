@@ -22,14 +22,13 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
   },
   robots: {
-    index: true,
-    follow: true,
-  },
-}
-verification: {
-    google: 'wJVikXmdBfrm_H_PL3ZTGVfjiJGb6BWriwT6P4HmM24',
-  },
-
+      index: true,
+      follow: true,
+    },
+    verification: {
+      google: 'wJVikXmdBfrm_H_PL3ZTGVfjiJGb6BWriwT6P4HmM24',
+    },
+  }
 export default function RootLayout({
   children,
 }: {
